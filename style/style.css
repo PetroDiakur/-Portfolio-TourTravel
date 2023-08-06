@@ -84,7 +84,7 @@
 }
 
 .main-2 {
-    height:600px;
+    height:620px;
 }
 
 .main-2-img {
@@ -95,4 +95,193 @@
 .main-2-text {
     color:#7D7987;
     line-height: 2.4;
+}
+
+.btn-for-learn {
+    border:none;
+    border-radius: 6px;
+    width:150px;
+    height:37px;
+    background-color: #FB8F1D;
+    color:white;
+    transition: .3s;
+}
+
+.btn-for-learn:hover {
+    background-color:#cc761a;
+    color:#e8e5e3;
+    transition:.3s;
+}
+
+.main-3 {
+    height:500px;
+}
+
+.main-3-container {
+    height:450px;
+    width:1150px;
+    margin-left: 70px;
+}
+
+.main-3-h {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 33px;
+}
+
+.main-3-link {
+    text-decoration: none;
+    color: #FB8F1D;
+}
+
+.main-3-link:hover {
+    text-decoration: underline;
+}
+
+.main-3-card {
+    transition: .3s;
+}
+
+.main-3-card:hover {
+    scale: 0.9;
+    transition: .5s;
+}
+
+.main-4 {
+    height:600px;
+    width:90vw;
+}
+
+.main-4-container {
+    height:450px;
+    width:800px;
+    margin-left: 120px;
+    padding-top:40px;
+}
+
+.main-4-content {
+    margin-top:40px;
+}
+
+.main-4-h {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.main-4-text {
+    color:#7D7987;
+    line-height: 2.4;
+}
+
+.main-4-banner {
+    padding-left: 220px;
+}
+
+.main-4-img {
+    width:500px;
+    height:450px;
+}
+
+.main-5 {
+    height:600px;
+}
+
+.main-5-container {
+    height:450px;
+    width:1000px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.left-main-5 {
+    width:400px;
+}
+
+.main-5-text {
+    height:220px;
+}
+
+.stars {
+    width:180px;
+    height: 25px;
+}
+
+.main-5-content {
+    height:450px;
+    display: flex;
+}
+
+.main-5-right {
+    width:600px;
+}
+
+.main-5-banner {
+    border-radius: 20px;
+}
+
+.main-5-p {
+    font-size:17px;
+}
+
+.main-6 {
+    height:700px;
+}
+
+.main-6-container {
+    height:580px;
+    width:1250px;
+    margin-left: 70px;
+}
+
+.card-img {
+    height:300px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #FB8F1D;
+    text-align: left;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    height:380px;
+    background-color: #F9F9FB;
+}
+
+.footer-container {
+    height:300px;
+    width:1200px;
+    padding-bottom:15px;
+}
+
+.logo-airplane {
+    height:60px;
+    width:60px;
+}
+
+.footer-text {
+    color:#848484;
+}
+
+.footer-text-a {
+    color:#848484;
+}
+
+.footer-text-a:hover {
+    text-decoration: underline;
+}
+
+.footer-links-2 {
+    width:300px;
+}
+
+.instagram {
+    width:32px;
+    height:25px;
+}
+
+.footer-links-2 {
+    margin-top:10px;
 }
