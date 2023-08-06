@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
+        <!-- NAVIGAION-BAR -->
         <div class="row header">
             <div class="d-flex justify-content-center col-md-2 header-left">
                 <img src="imgs/airplane-icon.png" alt="Our Logo" class="icon-logo">
@@ -30,65 +31,75 @@
             <div class="col-md-1 header-right">
             </div>
         </div>
+        <!-- FIRST MAIN -->
         <div class="row main-1">
-            <div class="col-md-1 main-1-left">
-            </div>
-            <div class="d-flex justify-content-evenly align-content-center flex-column col-md-6 main-1-content">
+            <div class="d-flex justify-content-evenly align-content-center flex-column col-md-12 main-1-content">
                 <h1 class="main-1-h">Explore<br>And Travel</h1>
-               <b><span>Holiday Finder<br>―</span></b>
-               <div class="row dropdown-container">
-                    <div class="d-flex flex-column justify-content-evenly col-md-2 dropdowns-left">
+                <b><span>Holiday Finder<br>―</span></b>
+                <!-- MAIN-1 DROPDOWNS -->
+                <div class="row dropdown-container">
+                    <div class="d-flex flex-column  justify-content-evenly col-md-4 dropdowns-left">
                         <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Location
-                             </a>
-                  
+                            <button class="bg-light text-secondary btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Location
+                            </button>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </div>
+                          </div>
                         <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Grade
-                             </a>
-                  
+                            <button class="bg-light text-secondary btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Grade
+                            </button>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column justify-content-evenly col-md-2 dropdowns-right">
-                        <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Activity
-                             </a>
-                  
-                            <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-                        <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Date
-                             </a>
-                  
-                            <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </div>
                     </div>
-               </div>
-               <button class="btn-for-reg">Explore</button>
+                    <div class="d-flex flex-column d-flex flex-column  justify-content-evenly col-md-4 dropdowns-right">
+                        <div class="dropdown">
+                            <button class="bg-light text-secondary btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Activity
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                          <div class="dropdown">
+                            <button class="bg-light text-secondary btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Date
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+                <button class="btn-for-reg">Explore</button>
+                <img src="imgs/main1.png" alt="Banner" class="main-1-img">
             </div>
-            <div class="d-flex justify-content-start col-md-5 main-1-banner">
+        </div>
+        <!-- SECOND MAIN -->
+        <div class="row main-2">
+            <div class="d-flex flex-row justify-content-evenly main-2-container">
+                <img src="imgs/main2.png" alt="Banner" class="main-2-img">
+                <div class="d-flex flex-column justify-content-center main-2-content">
+                    <h1 class="main-1-h">A new way to explore the<br>world</h1>
+                    <p class="main-2-text">For decades travellers have reached for Lonely Planet<br>
+                        books when looking to plan and execute their perfect<br>
+                        trip, but now, they can also let Lonely Planet Experiences<br>
+                        lead the way
+                    </p>
+                    <button class="btn-for-reg">Explore</button>
+                </div>
             </div>
         </div>
     </div>

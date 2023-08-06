@@ -54,11 +54,13 @@
 }
 
 .main-1 {
-    height:600px;
+    height:570px;
+    width:93vw;
 }
 
 .main-1-content {
     height:500px;
+    margin-left:70px;
 }
 
 .main-1-h {
@@ -67,9 +69,30 @@
 
 .dropdown-container {
     height:150px;
+    width:600px;
+}
+
+.dropdown-toggle {
+    width:180px;
 }
 
 .main-1-img {
-    height:580px;
-    width:600px;
+    height:500px;
+    width:550px;
+    position: absolute;
+    margin-left: 580px;
+}
+
+.main-2 {
+    height:600px;
+}
+
+.main-2-img {
+    width:630px;
+    height:510px;
+}
+
+.main-2-text {
+    color:#7D7987;
+    line-height: 2.4;
 }
